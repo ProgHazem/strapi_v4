@@ -1,0 +1,50 @@
+{
+    "kind": "singleType",
+    "collectionName": "blog_settings",
+    "info": {
+        "singularName": "blog-setting",
+        "pluralName": "blog-settings",
+        "displayName": "Blog Settings"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "main_blog": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::blog.blog"
+        },
+        "featured": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::blog.blog"
+        },
+        "editor_choice": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::blog.blog"
+        },
+        "title": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "type": "string"
+        },
+        "sub_title": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+  "_from": "strapi-provider-upload-local-path",
+  "_id": "strapi-provider-upload-local-path@3.6.1-alpha.13",
+  "_inBundle": false,
+  "_integrity": "sha512-4EQGKs5n/paNrh3IV8H1yLJHnjGyuBNbgBeDtQHLfmn56URGEThkn+modx1ddRDs0eQvtAHJmixIu5Xjf1S6uA==",
+  "_location": "/strapi-provider-upload-local-path",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "strapi-provider-upload-local-path",
+    "name": "strapi-provider-upload-local-path",
+    "escapedName": "strapi-provider-upload-local-path",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-provider-upload-local-path/-/strapi-provider-upload-local-path-3.6.1-alpha.13.tgz",
+  "_shasum": "2bc2322d61fdba775257fa3b968333d4fd9217c8",
+  "_spec": "strapi-provider-upload-local-path",
+  "_where": "/Users/youssefhanna/Faydety/faydety-cms",
+  "author": {
+    "name": "Package owner",
+    "email": "dusanscensny@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dusanscensny/strapi-provider-upload-local-path/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Local provider for strapi upload path",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=10.16.0",
+    "npm": ">=6.0.0"
+  },
+  "homepage": "https://github.com/dusanscensny/strapi-provider-upload-local-path#readme",
+  "keywords": [
+    "upload",
+    "strapi",
+    "path"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "./lib",
+  "maintainers": [
+    {
+      "name": "Package owner",
+      "email": "dusanscensny@gmail.com"
+    }
+  ],
+  "name": "strapi-provider-upload-local-path",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dusanscensny/strapi-provider-upload-local-path.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "version": "3.6.1-alpha.13"
+}

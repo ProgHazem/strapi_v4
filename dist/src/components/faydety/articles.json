@@ -1,0 +1,31 @@
+{
+    "collectionName": "components_article_articles",
+    "info": {
+        "name": "Articles",
+        "icon": "align-justify",
+        "description": "",
+        "displayName": "Articles"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "maxLength": 60,
+            "minLength": 30
+        },
+        "seo_keywords": {
+            "type": "text"
+        },
+        "seo_description": {
+            "type": "text",
+            "minLength": 130,
+            "maxLength": 160
+        },
+        "short_description": {
+            "type": "text"
+        },
+        "description": {
+            "type": "richtext"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "faydety-cms-v-4",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "postinstall": "cp -rf ./plugins/strapi-provider-upload-local-path ./node_modules"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-i18n": "4.3.6",
+    "@strapi/plugin-upload": "^4.3.6",
+    "@strapi/plugin-users-permissions": "^4.3.6",
+    "@strapi/strapi": "4.3.6",
+    "dotenv": "^10.0.0",
+    "mysql": "^2.18.1",
+    "strapi-provider-upload-local-path": "^3.6.1-alpha.13"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "68b822c8-fb59-4025-ae2c-a265dd61c4bd"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

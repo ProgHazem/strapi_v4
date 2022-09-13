@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_faydety_steps",
+  "info": {
+    "name": "steps",
+    "icon": "fish",
+    "description": "",
+    "displayName": "steps"
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "string"
+    },
+    "step_desc": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

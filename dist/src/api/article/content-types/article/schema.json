@@ -1,0 +1,48 @@
+{
+    "kind": "collectionType",
+    "collectionName": "articles",
+    "info": {
+        "singularName": "article",
+        "pluralName": "articles",
+        "displayName": "Help Center"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "cover_image": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "ar": {
+            "type": "component",
+            "repeatable": false,
+            "component": "faydety.articles"
+        },
+        "en": {
+            "type": "component",
+            "repeatable": false,
+            "component": "faydety.articles"
+        },
+        "has_arabic_content": {
+            "type": "boolean",
+            "default": false
+        },
+        "has_english_content": {
+            "type": "boolean",
+            "default": false
+        },
+        "websites": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::website.website",
+            "mappedBy": "help_centers"
+        }
+    }
+}

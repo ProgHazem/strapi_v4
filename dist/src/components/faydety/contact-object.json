@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_faydety_contact_objects",
+    "info": {
+        "name": "contact-info-list",
+        "icon": "ad",
+        "description": "",
+        "displayName": "contact-info-list"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "summary": {
+            "type": "richtext"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_faydety_prizes",
+  "info": {
+    "name": "prize",
+    "icon": "clipboard-check",
+    "description": "",
+    "displayName": "prize"
+  },
+  "options": {},
+  "attributes": {
+    "giftInvitationLimit": {
+      "type": "integer"
+    },
+    "giftCardNumber": {
+      "type": "string"
+    },
+    "giftCardImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

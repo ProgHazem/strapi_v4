@@ -1,0 +1,46 @@
+{
+    "kind": "collectionType",
+    "collectionName": "websites",
+    "info": {
+        "singularName": "website",
+        "pluralName": "websites",
+        "displayName": "website",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "identifer": {
+            "type": "uid"
+        },
+        "title": {
+            "type": "string"
+        },
+        "help_centers": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::article.article",
+            "inversedBy": "websites"
+        },
+        "blog_categories": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::blog-category.blog-category",
+            "inversedBy": "websites"
+        },
+        "blogs": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::blog.blog",
+            "mappedBy": "websites"
+        },
+        "pages": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::page.page",
+            "mappedBy": "websites"
+        }
+    }
+}

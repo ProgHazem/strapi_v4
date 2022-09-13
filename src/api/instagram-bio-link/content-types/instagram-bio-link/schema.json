@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "instagram_bio_links",
+  "info": {
+    "singularName": "instagram-bio-link",
+    "pluralName": "instagram-bio-links",
+    "displayName": "Instagram bio link"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

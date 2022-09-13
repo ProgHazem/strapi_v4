@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "competitions",
+    "info": {
+        "singularName": "competition",
+        "pluralName": "competitions",
+        "displayName": "Competition"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "prize": {
+            "type": "component",
+            "repeatable": true,
+            "component": "faydety.prize"
+        },
+        "mobileNumber": {
+            "type": "string",
+            "required": true,
+            "unique": true
+        }
+    }
+}
